@@ -1,0 +1,156 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700");
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+  overflow-x: hidden;
+  --spotgreen: #00B172;
+  font-size: 15px;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100vw;
+  position: fixed;
+  background-color: white;
+  margin-top: 0;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  padding-top: 1rem;
+  justify-content: space-around;
+}
+
+.nav-li {
+  list-style: none;  
+  
+}
+
+.nav-li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    margin: 1rem;
+
+}
+
+nav img {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  height: 5rem;
+}
+
+.header {
+  background-image: url("../images/landing.jpg");
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.header p{
+  font-size: 1.5em;
+}
+
+.sec1{
+  align-items: center;
+}
+.sec1 hr{
+  width: 15rem;
+  border: 1px solid var(--spotgreen)
+}
+
+.section1-title{
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 0;
+}
+
+#what{
+  width: 100vw;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.whatart{
+  width: 13rem;
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.whatart img{
+  width: 5rem;
+}
+
+.whatart p{
+  text-align: center;
+}
+
+.what-spot{
+  color: var(--spotgreen);
+}
+
+#sec2{
+  background-color: var(--spotgreen);
+  color: white;
+  padding-top: 5vh;
+  padding-left: 5vw;
+  align-items: center;
+}
+
+#underline2{
+  background-color:white;
+  height: 0.2vh;
+  width: 375px;
+  background-position: 0 0;
+}
+
+.section2-title{
+  font-size: 2em;
+  margin-bottom: 0;
+}
+
+#kanye img{
+  width: 15rem;
+  margin: 2rem;
+
+}
+#spoticon img{
+  width: 5rem;
+}
+
+#box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
